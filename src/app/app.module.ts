@@ -15,6 +15,7 @@ import { routing } from "app/app.routing";
 import { BookDetailComponent } from './book-detail/book-detail.component';
 import { BookDetailGuard } from "app/book-guard.service";
 import { NewBookComponent } from './new-book/new-book.component';
+import { RouterModule } from "@angular/router";
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { NewBookComponent } from './new-book/new-book.component';
     HttpModule,
     MaterialModule,
     BrowserAnimationsModule,
+    RouterModule,
     routing
   ],
   entryComponents: [
