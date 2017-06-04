@@ -23,7 +23,6 @@ export class RatingComponent implements OnInit, OnChanges {
   }
 
   click(rating:number): void {
-    this.rating = rating;
     this.book.rating = rating;
     this.ratingClicked.emit(this.book);
   }
