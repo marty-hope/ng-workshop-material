@@ -7,7 +7,6 @@ import { NewBookComponent } from 'app/new-book/new-book.component';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'my-collection',
   templateUrl: './collection.component.html',
   styleUrls: ['./collection.component.css']
 })
