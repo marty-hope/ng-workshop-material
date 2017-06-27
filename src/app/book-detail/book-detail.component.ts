@@ -2,7 +2,7 @@ import { Component, OnInit, OnDestroy, Input, Output } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs/Subscription';
 import { IBook } from "app/ibook";
-import { DataService } from "app/data.service";
+import { DataService } from "app/services/data.service";
 import { MdSnackBar} from '@angular/material';
 
 @Component({

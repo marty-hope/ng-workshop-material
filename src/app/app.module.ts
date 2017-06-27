@@ -9,11 +9,11 @@ import { AppComponent } from './app.component';
 import { AboutComponent } from './about/about.component';
 import { TabsComponent } from './tabs/tabs.component';
 import { CollectionComponent } from './collection/collection.component';
-import { RatingCategoryPipe } from './rating-category.pipe';
+import { RatingCategoryPipe } from './pipes/rating-category.pipe';
 import { RatingComponent } from './rating/rating.component';
 import { routing } from "app/app.routing";
 import { BookDetailComponent } from './book-detail/book-detail.component';
-import { BookDetailGuard } from "app/book-guard.service";
+import { BookDetailGuard } from "app/guards/book-guard.service";
 import { NewBookComponent } from './new-book/new-book.component';
 import { RouterModule } from "@angular/router";
 

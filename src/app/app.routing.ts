@@ -2,7 +2,7 @@ import { ModuleWithProviders }  from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { AboutComponent } from "app/about/about.component";
 import { CollectionComponent } from "app/collection/collection.component";
-import { BookDetailGuard } from "app/book-guard.service";
+import { BookDetailGuard } from "app/guards/book-guard.service";
 import { BookDetailComponent } from "app/book-detail/book-detail.component";
 
 

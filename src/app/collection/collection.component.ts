@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { IBook } from 'app/ibook';
-import { DataService } from 'app/data.service';
+import { DataService } from 'app/services/data.service';
 import { MdSnackBar, MdDialog } from '@angular/material';
 import { BookDetailComponent } from 'app/book-detail/book-detail.component';
 import { NewBookComponent } from 'app/new-book/new-book.component';
